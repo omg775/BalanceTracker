@@ -1,0 +1,19 @@
+C:\Users\dgawd\OneDrive\Desktop\F# homework\Asssignment2\Asssignment2\bin\Debug\net6.0\Asssignment2.deps.json
+C:\Users\dgawd\OneDrive\Desktop\F# homework\Asssignment2\Asssignment2\bin\Debug\net6.0\Asssignment2.dll
+C:\Users\dgawd\OneDrive\Desktop\F# homework\Asssignment2\Asssignment2\bin\Debug\net6.0\Asssignment2.pdb
+C:\Users\dgawd\OneDrive\Desktop\F# homework\Asssignment2\Asssignment2\obj\Debug\net6.0\Asssignment2.fsproj.AssemblyReference.cache
+C:\Users\dgawd\OneDrive\Desktop\F# homework\Asssignment2\Asssignment2\obj\Debug\net6.0\Asssignment2.AssemblyInfoInputs.cache
+C:\Users\dgawd\OneDrive\Desktop\F# homework\Asssignment2\Asssignment2\obj\Debug\net6.0\Asssignment2.AssemblyInfo.fs
+C:\Users\dgawd\OneDrive\Desktop\F# homework\Asssignment2\Asssignment2\obj\Debug\net6.0\Asssignment2.fsproj.CoreCompileInputs.cache
+C:\Users\dgawd\OneDrive\Desktop\F# homework\Asssignment2\Asssignment2\obj\Debug\net6.0\Asssignment2.dll
+C:\Users\dgawd\OneDrive\Desktop\F# homework\Asssignment2\Asssignment2\obj\Debug\net6.0\Asssignment2.pdb
+C:\Users\dgawd\OneDrive\Desktop\F#\Asssignment2\Asssignment2\bin\Debug\net6.0\Asssignment2.deps.json
+C:\Users\dgawd\OneDrive\Desktop\F#\Asssignment2\Asssignment2\bin\Debug\net6.0\Asssignment2.dll
+C:\Users\dgawd\OneDrive\Desktop\F#\Asssignment2\Asssignment2\bin\Debug\net6.0\Asssignment2.pdb
+C:\Users\dgawd\OneDrive\Desktop\F#\Asssignment2\Asssignment2\obj\Debug\net6.0\Asssignment2.fsproj.AssemblyReference.cache
+C:\Users\dgawd\OneDrive\Desktop\F#\Asssignment2\Asssignment2\obj\Debug\net6.0\Asssignment2.AssemblyInfoInputs.cache
+C:\Users\dgawd\OneDrive\Desktop\F#\Asssignment2\Asssignment2\obj\Debug\net6.0\Asssignment2.AssemblyInfo.fs
+C:\Users\dgawd\OneDrive\Desktop\F#\Asssignment2\Asssignment2\obj\Debug\net6.0\Asssignment2.fsproj.CoreCompileInputs.cache
+C:\Users\dgawd\OneDrive\Desktop\F#\Asssignment2\Asssignment2\obj\Debug\net6.0\Asssignment2.dll
+C:\Users\dgawd\OneDrive\Desktop\F#\Asssignment2\Asssignment2\obj\Debug\net6.0\Asssignment2.pdb
+C:\Users\dgawd\OneDrive\Desktop\F#\Asssignment2\Asssignment2\obj\Debug\net6.0\Asssignment2.sourcelink.json
