@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            padding-top: 50px;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #333;
+            margin: 0; /* Added to remove default margin */
+            height: 100%; /* Added to make sure the background covers the entire page */
+            background-image: url('Couleur01.jpg'); /* Replace 'your-background-image.jpg' with the path to your image */
+            background-color: beige;
+            background-size: cover; /* Added to make sure the background image covers the entire viewport */
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.9); /* Change the alpha value to adjust transparency */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-color: red;
+            position: relative; /* Added to position the container relative to the body */
+        }
+
+        h1, h2, h3 {
+            margin-bottom: 20px;
+            color: #0056b3;
+        }
+
+        .table {
+            margin-top: 25px;
+            background-color: deepskyblue;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 2px solid #ddd; /* Added border to maintain white border around the table */
+        }
+
+            .table th {
+                background-color: #0056b3;
+                color: white;
+                font-weight: bold;
+                padding: 15px;
+            }
+
+            .table td {
+                padding: 20px;
+                border-top: 1px solid #dee2e6;
+            }
+
+        /* Add a specific background color for the financial dashboard to maintain white border */
+        .financial-dashboard {
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Your App</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav"><li class="active"><a href="index.html">Home</a></li><li><a href="about.html">About</a></li></ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://websharper.com">websharper.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div><div id="ws2057876812"></div></div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">
+                For an enhanced template that provides automatic GitHub deployment to Azure, fork from <a href="https://github.com/intellifactory/ClientServer.Azure">GitHub</a>, or
+                read more <a href="https://websharper.com/blog-entry/4368/deploying-websharper-apps-to-azure-via-github">here</a>.
+            </p>
+        </div>
+    </footer>
+    <meta id='websharper-data' name='websharper-data' content='{"$TYPES":[["WebSharper","Web","FSharpInlineControl"]],"$DATA":{"$V":{"ws2057876812":{"$T":0,"$V":{"args":[],"funcName":["Asssignment2","Client","Main"]}}}}}' />
+<script src="Scripts/WebSharper.Core.JavaScript/Runtime.js" type="text/javascript" charset="UTF-8"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.min.js" type="text/javascript" charset="UTF-8"></script><!--[if lte IE 7.0]>
+<script src="Scripts/WebSharper.Main/Json.js" type="text/javascript" charset="UTF-8"></script><![endif]-->
+<!--[if lte IE 11.0]>
+<script src="Scripts/WebSharper.UI/closest.js" type="text/javascript" charset="UTF-8"></script><![endif]-->
+<!--[if lte IE 9.0]>
+<script src="Scripts/WebSharper.Main/AnimFrame.js" type="text/javascript" charset="UTF-8"></script><![endif]-->
+<script src="Scripts/WebSharper.Main/WebSharper.Main.js" type="text/javascript" charset="UTF-8"></script><script src="Scripts/WebSharper.Collections/WebSharper.Collections.js" type="text/javascript" charset="UTF-8"></script><script src="Scripts/WebSharper.Web/WebSharper.Web.js" type="text/javascript" charset="UTF-8"></script><script src="Scripts/WebSharper.MathJS.Extensions/WebSharper.MathJS.Extensions.js" type="text/javascript" charset="UTF-8"></script><script src="Scripts/WebSharper.UI/WebSharper.UI.js" type="text/javascript" charset="UTF-8"></script><script src="Scripts/WebSharper.UI.Templating.Runtime/WebSharper.UI.Templating.Runtime.js" type="text/javascript" charset="UTF-8"></script><script src="Scripts/Asssignment2/Asssignment2.js" type="text/javascript" charset="UTF-8"></script><script type="text/javascript">
+if (typeof WebSharper !=='undefined') {
+  WebSharper.Runtime.ScriptBasePath = 'Scripts/';
+  WebSharper.Runtime.Start();
+}
+</script>
+
+<div style="display:none" ws-children-template="expense">
+                <h1>Balance Tracker App</h1>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Add Entry</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form>
+                            <div class="row">
+                                <div class=" form-group">
+                                    <label for="entryType">Select your entry Type</label>
+                                    <select id="entryType" ws-onchange="TypeChange" class="form-control" ws-var="entryType">
+                                        <option value="Income" selected="">Income</option>
+                                        <option value="Expense">Expense</option>
+                                    </select>
+                                </div>
+                                <div class=" form-group">
+                                    <label for="category">Select Income/Expense</label>
+                                    <input type="text" ws-onkeyup="CatInput" class="form-control" id="category" placeholder="Category" ws-var="category" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class=" form-group">
+                                    <label for="amount">Enter Amount</label>
+                                    <input type="number" ws-onkeyup="AmountInput" class="form-control" id="amount" placeholder="0" ws-var="amount" />
+                                </div>
+                                <div class=" form-group">
+                                    <label for="eventDate">Choose a date</label>
+                                    <input type="date" class="form-control" id="eventDate" ws-onchange="DateInput" placeholder="mm/dd/yyyy" ws-var="eventDate" />
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-success" ws-onclick="AddEntry">Add Entry</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="Total Balance">
+                    <h2>Financial Insight</h2>
+                    <p>Available Balance: <span id="totalBalance">${TotalBalance}</span></p>
+
+                    <h3>Entries</h3>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th>Category</th>
+                                <th>Amount</th>
+                                <th>EventDate</th>
+                            </tr>
+                        </thead>
+                        <tbody><tr ws-replace="Entries"></tr></tbody>
+                    </table>
+                </div>
+
+                <div ws-replace="Graph"></div>
+            </div><table style="display:none"><tbody ws-children-template="Item"><tr>
+                                <td>${Type}</td>
+                                <td>${Category}</td>
+                                <td>${Amount}</td>
+                                <td>${EventDate}</td>
+                            </tr></tbody></table></body>
+</html>
